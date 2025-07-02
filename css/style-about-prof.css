@@ -1,0 +1,28 @@
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  margin-bottom: 0.2rem;
+}
+.title {
+  color: #223e66;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.content {
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+ul,
+li {
+  list-style: none;
+}
+li:nth-child(odd) {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
