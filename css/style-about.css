@@ -1,0 +1,152 @@
+h1,
+h3 {
+  margin: 0;
+  padding: 0;
+  color: #1e3a8a;
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+}
+.about-me-text h3 {
+  margin-top: 0.2rem;
+  display: flex;
+
+  align-self: flex-end;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.col-left,
+.col-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+.col-right {
+  margin-top: 6rem;
+}
+
+.img-perfil {
+  width: 15rem;
+  border-radius: 50%;
+}
+.img-perfil img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+.apresentacao1 {
+  width: 70%;
+  text-align: center;
+  color: #223e66;
+  margin-top: 1rem;
+  font: bold 1.2rem "Poppins", sans-serif;
+}
+.html-line-value {
+  background-color: #1e3a8a;
+  font-weight: bold;
+  height: 1rem;
+  border-radius: 0.5rem;
+  width: 70%;
+}
+.js-line-value {
+  background-color: #1e3a8a;
+  font-weight: bold;
+  height: 1rem;
+  border-radius: 0.5rem;
+  width: 80%;
+}
+.react-line-value {
+  background-color: #1e3a8a;
+  font-weight: bold;
+  height: 1rem;
+  border-radius: 0.5rem;
+  width: 30%;
+}
+.ts-line-value {
+  background-color: #1e3a8a;
+  font-weight: bold;
+  height: 1rem;
+  border-radius: 0.5rem;
+  width: 80%;
+}
+.php-line-value {
+  background-color: #1e3a8a;
+  font-weight: bold;
+  height: 1rem;
+  border-radius: 0.5rem;
+  width: 20%;
+}
+.css-line-value {
+  background-color: #1e3a8a;
+  font-weight: bold;
+  height: 1rem;
+  border-radius: 0.5rem;
+  width: 60%;
+}
+.py-line-value {
+  background-color: #1e3a8a;
+  font-weight: bold;
+  height: 1rem;
+  border-radius: 0.5rem;
+  width: 20%;
+}
+.tecnologics {
+  margin-top: 23m;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+h2 {
+  color: #1e3a8a;
+  margin-bottom: 0.2rem;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0.2rem;
+  font-size: medium;
+  color: #223e66;
+  font-weight: bold;
+  justify-content: space-between;
+  transform: translateX(1rem);
+  transform: scale(0.5);
+  opacity: 0;
+  animation: growIn 0.8s ease-out forwards;
+  gap: 0.5rem;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.frameworks {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 3rem;
+}
+.frameworks ul {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+@keyframes growIn {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
